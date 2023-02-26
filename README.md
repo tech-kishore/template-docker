@@ -46,3 +46,14 @@ EXPOSE 5000
 COPY --from=build /home/app/target/*.jar app.jar
 ENTRYPOINT [ "sh", "-c", "java -jar /app.jar" ]
 ```
+
+# Spring docker commands
+- Recommended
+- Most efficient
+- Less image size
+- Much faster
+- Should be java 17 or more
+- No need to create separate Dockerfile
+
+**Command**
+mvn spring-boot:build-image
