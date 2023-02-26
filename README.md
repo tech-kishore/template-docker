@@ -56,4 +56,4 @@ ENTRYPOINT [ "sh", "-c", "java -jar /app.jar" ]
 - No need to create separate Dockerfile
 
 **Command**
-mvn spring-boot:build-image
+``` mvn spring-boot:build-image ```
