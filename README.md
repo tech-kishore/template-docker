@@ -48,12 +48,12 @@ ENTRYPOINT [ "sh", "-c", "java -jar /app.jar" ]
 ```
 
 # Spring docker commands
-- Recommended
+- _**Recommended**_
 - Most efficient
 - Less image size
 - Much faster
-- Should be java 17 or more
-- No need to create separate Dockerfile
+- _**Should be java 17 or more**_
+- _**No need to create separate Dockerfile**_
 
 **Command**
 ``` mvn spring-boot:build-image ```
